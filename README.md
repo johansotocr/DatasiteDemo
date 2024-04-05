@@ -8,26 +8,26 @@ This project is using cypress to automate some functional test cases.
  - npm installed
 
 ### Setup:
-Go to the folder where you want to clone the repo
+- 1. Go to the folder where you want to clone the repo
 
-Clone the github repo by
+- 2. Clone the github repo by
 
 ```bash
 $git clone https://github.com/johansotocr/dataSite.git
 ```
 
-Locally, enter to the downloaded folder and run
+- 3. Locally, enter to the downloaded folder and run
 ```bash
 $npm install
 ```
 
 ### Running:
-Open cypress by
+- 1. Open cypress by
 ```bash
 $npx cypress open
 ```
 
-You can also run cypress headless by
+- 2. You can also run cypress headless by
 ```bash
 $npx cypress run --spec "cypress/e2e/"
 ```
