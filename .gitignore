@@ -1,0 +1,11 @@
+#Dependencies
+node_modules
+package-lock.json
+#Genarated files
+cypress/videos
+cypress/screenshots
+cypress/downloads
+
+# Logs
+logs
+*.log
