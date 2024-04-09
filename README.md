@@ -1,5 +1,4 @@
-# dataSite
-dataSite Demo repository
+# dataSite Demo repository
 
 This project is using cypress to automate some functional test cases.
 

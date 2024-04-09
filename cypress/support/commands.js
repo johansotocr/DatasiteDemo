@@ -11,6 +11,14 @@
 //
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
+
+
+Cypress.Commands.add('getHomePage', (fdomain) => {
+  cy.clearCookies();
+  cy.clearLocalStorage();
+  cy.viewport('macbook-16');
+  cy.visit(fdomain, {onBeforeLoad: (win) => {win.sessionStorage.clear()}});
+  })
 //
 //
 // -- This is a child command --
