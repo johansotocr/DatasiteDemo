@@ -30,3 +30,5 @@ $npx cypress open
 ```bash
 $npx cypress run --spec "cypress/e2e/"
 ```
+<img width="846" alt="image" src="https://github.com/johansotocr/dataSite/assets/15791382/6fd73c60-111d-4ec8-8c36-4de3787d8980">
+
