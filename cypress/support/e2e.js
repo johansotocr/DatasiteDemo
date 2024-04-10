@@ -14,8 +14,9 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
-import 'cypress-real-events/support'
+import './commands';
+import 'cypress-real-events/support';
+import "allure-cypress/commands";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

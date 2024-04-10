@@ -4,12 +4,17 @@
   "description": "Demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean":"rm -rf allure-results",
+    "pureCypress":"cypress run --browser chrome --spec cypress/e2e/mainMenu/storage/validateMoveInOnlineToday.cy.js",
+    "openReport": "npm run clean && npm run pureCypress && allure serve allure-results"
   },
   "author": "Johan Soto",
   "license": "ISC",
   "devDependencies": {
+    "allure-commandline": "^2.28.0",
+    "allure-cypress": "^2.15.1",
     "cypress": "^13.7.2",
-    "cypress-real-events": "^1.12.0"
+    "cypress-real-events": "^1.12.0",
+    "run": "^1.5.0"
   }
 }
